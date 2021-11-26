@@ -14,7 +14,7 @@ body {
   overflow-x: hidden;
   text-align: center;
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 100%;
   width: 100%;
   margin-bottom: 2rem;
 }
@@ -29,7 +29,7 @@ h1 {
   font-weight: 100;
   line-height: 2rem;
   color: #1d1d1d;
-  margin: 1rem 0 1.8rem;
+  margin: 1rem 0 1.2rem;
 }
 
 h2 {
@@ -220,12 +220,10 @@ h1 span {
   }
 
   .row-bottom-text {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     place-items: center;
-    bottom: 0;
-    position: fixed;
-    left: 0;
-    right: 0;
+    margin-top:40px;
     font-family: "Roboto", sans-serif;
   }
 
@@ -242,8 +240,8 @@ h1 span {
 }
 
 #logo {
-  width: 60%;
-  /* object-fit: contain; */
+  width: 75%;
+  object-fit: contain;
 }
 
 a {
@@ -254,6 +252,7 @@ a {
 }
 
 .instagram {
+  /* background:#30618A ; */
   background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
   background-repeat: no-repeat;
 }
@@ -264,13 +263,19 @@ a {
 }
 
 .website {
-  background: #fd1d1d;
-  /* background: rgb(209, 200, 171);
-  background: linear-gradient(270deg, rgba(209, 200, 171, 1) 0%, rgba(176, 161, 110, 1) 100%); */
+  background: #2F3D4D;
 }
 
-.mobile {
-  background: rgb(112, 112, 112);
+.application {
+  background: #8C1407;
+}
+
+.google {
+  background: #db4a39;
+}
+
+.linkedin {
+  background: #2867b2;
 }
 
 .fa {
