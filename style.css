@@ -192,7 +192,6 @@ h1 span {
 
   .row {
     width: 100%;
-    height: 60px;
   }
 
   .col-4 {
@@ -255,6 +254,14 @@ a {
   /* background:#30618A ; */
   background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
   background-repeat: no-repeat;
+}
+
+.android_store {
+  background: linear-gradient(120deg, #018386, #00DCD2);
+}
+
+.ios_store{
+  background: linear-gradient(120deg, #2172ED, #17B1F1);
 }
 
 .facebook {
